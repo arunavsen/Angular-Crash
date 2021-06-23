@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ITask } from 'src/app/ITask';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { ITask } from 'src/app/ITask';
 
 
 @Component({
