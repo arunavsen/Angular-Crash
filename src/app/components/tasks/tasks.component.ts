@@ -17,4 +17,11 @@ export class TasksComponent implements OnInit {
     this.taskService.getTask().subscribe((tasks)=>this.tasks=tasks);
   }
 
+  deleteTask(task: ITask){
+    this.taskService
+    .deleteTask(task)
+    .subscribe(
+      ()=>this.tasks.filter(
+        (t)=> t.id !== task.id));
+  }
 }
