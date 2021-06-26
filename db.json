@@ -1,6 +1,7 @@
 {
   "tasks": [
     {
+<<<<<<< HEAD
       "id": 1,
       "text": "SISC BD meeting",
       "day": "June 25th at 8:30pam",
@@ -10,12 +11,34 @@
       "id": 2,
       "text": "Vonome BD meeting",
       "day": "June 25th at 8:30pam",
+=======
+      "id": 2,
+      "text": "Meeting at office with Vonome",
+      "day": "May 22nd at 3:30pm",
+>>>>>>> a64e0e38f31f376033b27f3f934af37a00f2b811
       "reminder": true
     },
     {
       "id": 3,
+<<<<<<< HEAD
       "text": "Dimik BD meeting",
       "day": "June 25th at 8:30pam",
+=======
+      "text": "Meeting at office with SynergySolutions",
+      "day": "April 12nd at 08:30pm",
+      "reminder": true
+    },
+    {
+      "id": 20,
+      "text": "Meeting at office with Vonome",
+      "day": "May 22nd at 3:30pm",
+      "reminder": true
+    },
+    {
+      "id": 5,
+      "text": "Meeting at office with AXN",
+      "day": "May 22nd at 3:30pm",
+>>>>>>> a64e0e38f31f376033b27f3f934af37a00f2b811
       "reminder": true
     }
   ]
